@@ -33,8 +33,7 @@ export default function Home() {
             </div>
           ) : (
             <h1>
-              Don't have an account?{' '}
-              <button onClick={changeLogin}>Log in</button>{' '}
+              Have an account? <button onClick={changeLogin}>Log in</button>{' '}
             </h1>
           )}
         </div>
